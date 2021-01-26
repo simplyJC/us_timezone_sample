@@ -1,0 +1,62 @@
+import 'package:us_timezone/model/states.dart';
+
+class StateSource {
+  List<States> listOfStates = [
+    States(stateAbbr: 'AL', stateName: 'Alabama', stateTimeZone: 'CST'),
+    States(stateAbbr: 'AK', stateName: 'Alaska', stateTimeZone: 'AKST'),
+    States(stateAbbr: 'AZ', stateName: 'Arizona', stateTimeZone: 'PDT'),
+    States(stateAbbr: 'AR', stateName: 'Arkansas', stateTimeZone: 'CST'),
+    States(stateAbbr: 'CA', stateName: 'California', stateTimeZone: 'PST'),
+    States(stateAbbr: 'CO', stateName: 'Colorado', stateTimeZone: 'PDT'),
+    States(stateAbbr: 'CT', stateName: 'Connecticut', stateTimeZone: 'EST'),
+    States(stateAbbr: 'DE', stateName: 'Delaware', stateTimeZone: 'EST'),
+    States(stateAbbr: 'FL', stateName: 'Florida', stateTimeZone: 'CST'),
+    States(stateAbbr: 'GA', stateName: 'Georgia', stateTimeZone: 'EST'),
+    States(stateAbbr: 'HI', stateName: 'Hawaii', stateTimeZone: 'HST'),
+    States(stateAbbr: 'ID', stateName: 'Idaho', stateTimeZone: 'PDT'),
+    States(stateAbbr: 'IL', stateName: 'Illinois', stateTimeZone: 'CST'),
+    States(stateAbbr: 'IN', stateName: 'Indiana', stateTimeZone: 'EST'),
+    States(stateAbbr: 'IA', stateName: 'Iowa', stateTimeZone: 'CST'),
+    States(stateAbbr: 'KS', stateName: 'Kansas	', stateTimeZone: 'CST'),
+    States(stateAbbr: 'KY', stateName: 'Kentucky ', stateTimeZone: 'CST'),
+    States(stateAbbr: 'LA', stateName: 'Louisiana ', stateTimeZone: 'CST'),
+    States(stateAbbr: 'ME', stateName: 'Maine', stateTimeZone: 'EST'),
+    States(stateAbbr: 'MD', stateName: 'Maryland ', stateTimeZone: 'EST'),
+    States(stateAbbr: 'MA', stateName: 'Massachusetts ', stateTimeZone: 'EST'),
+    States(stateAbbr: 'MI', stateName: 'Michigan ', stateTimeZone: 'EST'),
+    States(stateAbbr: 'MN', stateName: 'Minnesota ', stateTimeZone: 'CST'),
+    States(stateAbbr: 'MS', stateName: 'Mississippi', stateTimeZone: 'CST'),
+    States(stateAbbr: 'MO', stateName: 'Missouri ', stateTimeZone: 'CST'),
+    States(stateAbbr: 'MT', stateName: 'Montana ', stateTimeZone: 'PDT'),
+    States(stateAbbr: 'NE', stateName: 'Nebraska ', stateTimeZone: 'CST'),
+    States(stateAbbr: 'NV', stateName: 'Nevada', stateTimeZone: 'PDT'),
+    States(stateAbbr: 'NH', stateName: 'New Hampshire', stateTimeZone: 'EST'),
+    States(stateAbbr: 'NJ', stateName: 'New Jersey', stateTimeZone: 'EST'),
+    States(stateAbbr: 'NM', stateName: 'New Mexico', stateTimeZone: 'PDT'),
+    States(stateAbbr: 'NY', stateName: 'New York', stateTimeZone: 'EST'),
+    States(stateAbbr: 'NC', stateName: 'North Carolina ', stateTimeZone: 'EST'),
+    States(stateAbbr: 'ND', stateName: 'North Dakota', stateTimeZone: 'PDT'),
+    States(stateAbbr: 'OH', stateName: 'Ohio', stateTimeZone: 'EST'),
+    States(stateAbbr: 'OK', stateName: 'Oklahoma ', stateTimeZone: 'CST'),
+    States(stateAbbr: 'OR', stateName: 'Oregon', stateTimeZone: 'PST'),
+    States(stateAbbr: 'PA', stateName: 'Pennsylvania ', stateTimeZone: 'EST'),
+    States(stateAbbr: 'PR', stateName: 'Pennsylvania ', stateTimeZone: 'EDT'),
+    States(stateAbbr: 'RI', stateName: 'Rhode Island', stateTimeZone: 'EST'),
+    States(stateAbbr: 'SC', stateName: 'South Carolina', stateTimeZone: 'EST'),
+    States(stateAbbr: 'SD', stateName: 'South Dakota', stateTimeZone: 'CST'),
+    States(stateAbbr: 'TN', stateName: 'Tennessee', stateTimeZone: 'EST'),
+    States(stateAbbr: 'TX', stateName: 'Texas ', stateTimeZone: 'CST'),
+    States(stateAbbr: 'UT', stateName: 'Utah', stateTimeZone: 'PDT'),
+    States(stateAbbr: 'VT', stateName: 'Vermont ', stateTimeZone: 'EST'),
+    States(stateAbbr: 'VA', stateName: 'Virginia', stateTimeZone: 'EST'),
+    States(stateAbbr: 'WA', stateName: 'Washington', stateTimeZone: 'PST'),
+    States(stateAbbr: 'WV', stateName: 'West Virginia', stateTimeZone: 'EST'),
+    States(stateAbbr: 'WI', stateName: 'Wisconsin', stateTimeZone: 'CST'),
+    States(stateAbbr: 'WY', stateName: 'Wyoming ', stateTimeZone: 'PDT'),
+  ];
+}
+
+//PDT = MST
+//Hawaii-Aleutian Time Zone  = HST
+//puerto rico Atlantic Time Zone  = EDT
+// alaska 'AKST'
