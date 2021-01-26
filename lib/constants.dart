@@ -10,6 +10,12 @@ const kTexfieldDecoration = InputDecoration(
 );
 const kTextStyle = TextStyle(
   fontSize: 18.0,
+  color: Colors.white,
+);
+const kTextStyleLabel = TextStyle(
+  fontSize: 20.0,
+  fontWeight: FontWeight.bold,
+  color: Color(0xFF7DF9FF),
 );
 
 // Container(

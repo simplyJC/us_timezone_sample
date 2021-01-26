@@ -103,13 +103,14 @@ class _HomePageState extends State<HomePage> {
                   Text(
                     'Current TimeZone Selected:',
                     style: TextStyle(
-                      fontSize: 18.0,
+                      fontSize: 22.0,
                       fontWeight: FontWeight.bold,
+                      color: Color(0xFF00E7F2),
                     ),
                   ),
                   Text(
                     "$stateName $timeZoneValue",
-                    style: kTextStyle,
+                    style: kTextStyleLabel,
                   ),
                   Text(
                     '$selectedTimeZone',
@@ -117,7 +118,7 @@ class _HomePageState extends State<HomePage> {
                   ),
                   Text(
                     'Current Time:',
-                    style: kTextStyle,
+                    style: kTextStyleLabel,
                   ),
                   Text(
                     "$stringTimeNow",
